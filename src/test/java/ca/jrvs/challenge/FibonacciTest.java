@@ -20,5 +20,9 @@ public class FibonacciTest {
         assertEquals(3, test1);
         int test2 = fb.fib(10);
         assertEquals(55, test2);
+        int test3 = fb.fib_DP(4);
+        assertEquals(3, test3);
+        int test4 = fb.fib_DP(10);
+        assertEquals(55, test4);
     }
 }
