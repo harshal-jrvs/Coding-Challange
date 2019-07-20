@@ -3,6 +3,9 @@ package ca.jrvs.challenge;
 import java.util.Collections;
 import java.util.HashSet;
 
+/**
+ * Find MAX and MIN number from an unsorted array
+ */
 public class MaxMin {
     public static int[] findMaxMin(int nums[]) {
         HashSet<Integer> hashSet = new HashSet<Integer>();
