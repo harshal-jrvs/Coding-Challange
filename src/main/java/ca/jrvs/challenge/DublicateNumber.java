@@ -16,7 +16,7 @@ import java.util.HashSet;
  */
 public class DublicateNumber {
 
-    public int findDuplicate(int[] nums) {
+    public static int findDuplicate(int[] nums) {
         HashSet<Integer> hashSet = new HashSet<Integer>();
         int dublicate = 0;
         for (int i : nums) {
