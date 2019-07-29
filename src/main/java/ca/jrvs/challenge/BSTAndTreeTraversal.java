@@ -6,16 +6,16 @@ import java.util.Stack;
 
 //Average O(log n)
 //worst O(n)
-public class BST<T extends Comparable<T>> implements Iterable<T> {
+public class BSTAndTreeTraversal<T extends Comparable<T>> implements Iterable<T> {
     private Node<T> root;
     private Comparator<T> comparator;//used to compare two object of diffrent class
 
-    public BST() {
+    public BSTAndTreeTraversal() {
         root = null;
         comparator = null;
     }
 
-    public BST(Comparator<T> comp) {
+    public BSTAndTreeTraversal(Comparator<T> comp) {
         root = null;
         this.comparator = comp;
     }
